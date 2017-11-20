@@ -15,10 +15,7 @@
   display: none;
 }
 
-#wall > div:first-child {
+#wall > div:nth-child(5) > #tag-5.slick {
   display: none;
 }
 
-#tag-3 ~ .parent > #tag-5.slick {
-  display: none;
-}
